@@ -56,6 +56,11 @@ sudo apt-get install certbot python3-certbot-nginx
 sudo certbot --nginx -d YOUR_DOMAIN
 ```
 
+### 7. Renovación Automática del Certificado (no testeado)
+```bash
+sudo certbot renew --dry-run
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
